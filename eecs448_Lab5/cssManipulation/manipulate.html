@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="myStyle.css" 
+            rel="stylesheet" 
+            type="text/css"/>
+        <script type="text/javascript" src="manipulate.js"></script>
+        <h1>CSS Manipulation</h1>
+    </head>
+    <body>
+        <p id="textbox">Dummy Text</p>
+        <h4>Border (RGB values, 0-255):</h4>
+        <input type="text" id="border--red" value="red value"></input><br>
+        <input type="text" id="border--green" value="green value"></input><br>
+        <input type="text" id="border--blue" value="blue value"></input><br>
+        <input type="text" id="border--width" value="width"></input><br>
+        <h4>Background color (RGB values, 0-255):</h4>
+        <input type="text" id="background--red" value="red value"></input><br>
+        <input type="text" id="background--green" value="green value"></input><br>
+        <input type="text" id="background--blue" value="blue value"></input><br><br>
+        <button id="submit" onclick="changeCSS()">Change border and background</button>
+    </body>
